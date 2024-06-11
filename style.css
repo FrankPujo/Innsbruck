@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "raleway";
+    src: url("./res/Raleway-SemiBold.ttf") format("truetype");
+}
+
+body {
+	font-family: "raleway";
+	margin: 0;
+	margin-top: 1vh;
+	background-color: rgb(128, 202, 148);
+	/* agm( 45, 155, 70; white ) */
+}
+
+p {
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	font-size: 1.2em;
+}
+
+li {
+	font-size: 1.2em;
+}
+
+a {
+	color: black;
+}
+
+#titolo {
+	margin-left: 4vw;
+}
+
+#content {
+	margin-left: 4vw;
+	margin-right: 4vw;
+}
+
+.mainEls {
+	border-style: solid;
+	border-width: medium;
+	border-color: black;
+	border-radius: 16px;
+	width: 92vw;
+	margin-left: 4vw;
+	margin-right: 4vw;
+	min-height: 25vh;
+}
+
+.titoli {
+	color: white;
+}
+
+#pianoEl {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.2)), url("./res/pics/pianoPic.png");
+	background-size: cover;
+}
+#cenaEl {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.2)), url("./res/pics/cenaPic.jpg");
+	background-size: cover;
+}
+#postiEl {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.2)), url("./res/pics/postiPic.jpg");
+	background-size: cover;
+}
+
+.risto {
+	border-style: solid;
+	border-width: medium;
+	border-color: black;
+	border-radius: 16px;
+	width: 92vw;
+	min-height: 25vh;
+	
+}
