@@ -14,19 +14,19 @@ body {
 p {
 	margin-bottom: 0.5em;
 	margin-top: 0.5em;
-	font-size: 2em;
-}
-
-li {
-	font-size: 2em;
-}
-
-h2 {
 	font-size: 3em;
 }
 
+li {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 4.5em;
+}
+
 h1 {
-	font-size: 4em;
+	font-size: 6em;
 }
 
 a {
@@ -77,5 +77,20 @@ a {
 	border-radius: 16px;
 	width: 92vw;
 	min-height: 25vh;
+	background-color: #ddd;
 	
+}
+
+.bts {
+	margin-bottom: 2vh;
+}
+
+.btn {
+	background-color: #184;
+	font-size: 2em;
+	border: none;
+	padding: 0.4em 0.8em;
+	text-align: center;
+	display: inline-block;
+	margin-left: 5vw;
 }
